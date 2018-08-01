@@ -1,0 +1,18 @@
+div{
+    border: solid 2px darkred;
+    margin: 8px;
+    width: 20%;
+    text-align: center;
+    background-color: beige;
+
+}
+
+#header {
+    font-family: fantasy;
+    color: rgba(175, 13, 13, 0.623);
+    font-style: italic;
+    font-size: 48px;
+    background-color: beige;
+    width: 100%
+}
+
