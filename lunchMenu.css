@@ -1,5 +1,5 @@
 div{
-    border: solid 2px darkred;
+    border: dotted 2px darkred;
     margin: 8px;
     width: 20%;
     text-align: center;
@@ -11,8 +11,32 @@ div{
     font-family: fantasy;
     color: rgba(175, 13, 13, 0.623);
     font-style: italic;
-    font-size: 48px;
+    font-size: 30px;
     background-color: beige;
     width: 100%
 }
 
+body {
+    display: flex;
+    align-content: space-between;
+}
+
+#monday {
+    color: firebrick;
+}
+
+#tuesday {
+    color: firebrick;
+}
+
+#wednesday {
+    color: firebrick;
+}
+
+#thursday {
+    color: firebrick;
+}
+
+#friday {
+    color: firebrick;
+}

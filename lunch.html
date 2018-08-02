@@ -11,39 +11,67 @@
         </style>
     </head>
     <body>
-    
-    <div id="header"> 
-        <h1> Cool Lunch Menu</h1>
-    </div>
+            <div id="header"> 
+            <h1> Cool</h1>
+                <h1> Lunch Menu</h1>
+            </div>
 
-    <div id="MondayContainer"> 
-        <h4 id="monday"> Monday</h4>
-        <p id="mondayDesc"> On Mondays, we have soup, salad, and sandwhiches.</p>
-        <img id="mondayImage" src= "soup_salad_sandwich.jpg" width="150" height="145">
-    </div>
+            <div id="MondayContainer"> 
+                <h4 id="monday"> Monday</h4>
+                <p id="mondayDesc"> On Mondays, we have soup, salad, and sandwhiches.</p>
+                <img id="mondayImage" src= "soup_salad_sandwich.jpg" width="200" height="185">
+                <div id="paulBakery" style="border: solid 2px fuchsia"> 
+                        <script> 
+                            function visitPage() {
+                                window.location = 'http://www.paul-usa.com/en/';
+                            }
+                        </script>
+                        <button onclick="visitPage();"> Paul</button>
+                    </div>
+            </div>
 
-    <div id="TuesdayContainer"> 
-        <h4 id="tuesday">Tuesday</h4>
-        <p id="tuesdayDesc"> On Tuesdays, we have tacos.</p>
-        <img id="tuesdayImage" src="betterTacos.jpg" width="150" height="165">
-    </div>  
+            <div id="TuesdayContainer"> 
+                <h4 id="tuesday">Tuesday</h4>
+                <p id="tuesdayDesc"> On Tuesdays, we have tacos.</p>
+                <img id="tuesdayImage" src="betterTacos.jpg" width="200" height="205">
+                <div id="fattyDaddy" style="border: solid 2px fuchsia">
+                    <script> 
+                        function visitPage2() {
+                            window.location = "http://fattydaddytaco.com/"; 
+                        }
+                    </script>
+                    <button onclick="visitPage2();"> Fatty Daddy Taco</button>
+                </div>
+            </div>  
     
-    <div id="WednesdayContainer">
-        <h4 id="wednesday"> Wednesday</h4>
-        <p id="wedDesc"> On Wednesdays, we have pasta.</p>
-        <img id="wednesdayImage" src="pasta.jpg" width="130" height="175">
-    </div>
+            <div id="WednesdayContainer">
+                <h4 id="wednesday"> Wednesday</h4>
+                <p id="wedDesc"> On Wednesdays, we have pasta.</p>
+                <img id="wednesdayImage" src="pasta.jpg" width="200" height="235">
+                <div id="becco" style="border: solid 2px fuchsia">
+                    <script>
+                        function visitPage3() {
+                            window.location = "https://becco-nyc.com/";
+                        }
+                    </script>
+                    <button onclick="visitPage3();"> Becco</button>
+                </div>
+            </div>
     
-    <div id="ThursdayContainer">
-        <h4 id="thursday"> Thursday</h4>
-        <p id="thursDesc"> On Thursdays, we have pizza.</p>
-        <img id="thursdayImage" src="pizza.jpg" wdith="125" height="175">
-    </div>
+            <div id="ThursdayContainer">
+                <h4 id="thursday"> Thursday</h4>
+                <p id="thursDesc"> On Thursdays, we have pizza.</p>
+                <img id="thursdayImage" src="pizza.jpg" wdith="110" height="195">
+            </div>
     
-    <div id="FridayContainer"> 
-        <h4 id="friday"> Friday</h4>
-        <p id="fridayDesc"> On Fridays, we have whatever we want.</p>
-        <img id="fridayImgae" src="fondue.jpg" width="135" height="140">
-    </div>
+            <div id="FridayContainer"> 
+                <h4 id="friday"> Friday</h4>
+                <p id="fridayDesc"> On Fridays, we have whatever we want.</p>
+                <img id="fridayImage" src="fondue.jpg" width="205" height="220">
+            
+            </div>
+            <audio controls>
+                <source src="entertainer.mp3" type="audio/mpeg">
+            </audio>
     </body>
 </html>
