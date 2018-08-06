@@ -16,6 +16,9 @@ div{
     width: 100%
 }
 
+#audio {
+    display: none;
+}
 body {
     display: flex;
     align-content: space-between;
@@ -40,3 +43,24 @@ body {
 #friday {
     color: firebrick;
 }
+
+#paulBakery {
+    width: 21.5%;
+}
+
+#fattyDaddy {
+    width: 30%;
+}
+
+#becco {
+    width: 27%;
+}
+
+#grimaldis {
+    width: 26%;
+}
+
+#sushi {
+    width: 39.5%;
+}
+

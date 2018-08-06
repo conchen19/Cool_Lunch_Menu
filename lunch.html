@@ -1,6 +1,7 @@
 <!Doctype html>
 <html>
-    <head>
+    <head> 
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
         <title>Lunch!</title>
         <link href="lunchMenu.css" rel="stylesheet">
         <script src="lunch_Menu.js" type="text/javascript"> </script>
@@ -62,16 +63,32 @@
                 <h4 id="thursday"> Thursday</h4>
                 <p id="thursDesc"> On Thursdays, we have pizza.</p>
                 <img id="thursdayImage" src="pizza.jpg" wdith="110" height="195">
+                <div id="grimaldis" style=" border: fuchsia solid 2px ">
+                    <script>
+                        function visitPage4() {
+                            window.location ="https://www.grimaldispizzeria.com/"; 
+                        }
+                    </script>
+                    <button onclick="visitPage4();"> Grimaldi's</button>
+                </div>
             </div>
     
             <div id="FridayContainer"> 
                 <h4 id="friday"> Friday</h4>
                 <p id="fridayDesc"> On Fridays, we have whatever we want.</p>
                 <img id="fridayImage" src="fondue.jpg" width="205" height="220">
+                <div id="sushi" style="border: fuchsia solid 2px">
+                    <script>
+                        function visitPage5() {
+                            window.location ="https://sushinakazawa.com/"; 
+                        }
+                    </script>
+                    <button onclick="visitPage5();"> Sushi Nakazawa </button>
+                </div>
             
             </div>
-            <audio controls>
-                <source src="entertainer.mp3" type="audio/mpeg">
-            </audio>
-    </body>
+            <div id="audio">  
+                <embed height ="60" type="audio/mp3" width="60" src="entertainer.mp3" volume = "60" loop ="true" autostart="true" />
+            </div>
+            </body>
 </html>
